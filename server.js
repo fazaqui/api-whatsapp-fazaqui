@@ -16,7 +16,8 @@ const client = new Client({
             '--disable-dev-shm-usage',
             '--no-zygote',
             '--single-process'
-        ]
+        ],
+        executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || undefined
     }
 });
 
