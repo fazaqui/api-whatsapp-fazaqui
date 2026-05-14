@@ -19,8 +19,7 @@ const client = new Client({
             '--no-zygote',
             '--single-process', // <- this one doesn't works in Windows
             '--disable-gpu'
-        ],
-        executablePath: '/usr/bin/google-chrome'
+        ]
     }
 });
 
